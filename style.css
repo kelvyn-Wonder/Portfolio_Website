@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(image/bacground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.nav{
+    width: 100%;
+    min-height: 60px;
+    background-color: black;
+    position: fixed;
+    padding-right: 30px;
+}
+.logo{
+    width: 159px;
+    min-height: auto;
+    position: absolute;
+    margin-left: 30px;
+}
+.nav ul{
+margin: 0;
+padding: 20px;
+list-style: none;
+text-align: right;
+
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'roboto', sans-serif;
+
+}
+.logo{
+    width: 159px;
+    min-height: auto;
+    position: absolute;
+    padding-left: 20px;
+    display: inline-block;
+}
+.nav ul li a:hover{
+background-color: green;
+color: red;
+border-radius: 2px solid transparent;
+}
+.pic{
+    position: absolute;
+    top: 50%;
+}
+.content{
+    color: white;
+    padding-top: 15rem;
+    text-align: right;
+    padding-right: 50px;
+}
+
+#search{
+width: 20rem;
+min-height: 40px;
+border: 2px solid #ed410d;
+border-radius: 20px;
+position: relative;
+top: 30px;
+cursor: ;
+
+}
+
+.btn{
+    width: 100px;
+    min-height: 40px;
+    background-color: rgb(202, 38, 38);
+    position: relative;
+    top: 30px;
+    right: 30px;
+    border: none;
+}
+.content h1{
+    font-size: 60px;
+    font-family: 'arial', Arial, sans-serif;
+    text-shadow: 5px 2px 2px #222;
+    margin-bottom: 20px;
+    font-weight: large;
+}
+.content p{
+font-size: large;
+font-family: 'roboto'sans-serif;
+font-weight: bold;
+}
+.image{
+    float: right;
+    padding-right: 10rem;
+    filter: drop-shadow(1px 1px 20px yellow);
+}
+.text_image{
+    position: relative;
+    width: auto;
+    background-color:  rgb(28, 28, 26);
+    padding: 30px;
+    margin-top: 10rem;
+    border: 3px solid;
+    display: flow-root;
+}
+.me{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+
+}
+.about-me{
+    font-size: 30px;
+    color: #fff;
+    padding-left: 40px;
+    
+}
+.head{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+}
+h3{
+    color: white;
+}
+.aragraphp{
+    color: aliceblue;
+}
+.contact{
+    position: relative;
+    width: auto;
+    height: 50%;
+    background-color: #222;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.formation{
+    color: white;
+    text-align: left;
+    padding-left: 10rem;
+    margin-top: 10px;
+}
+.cont{
+    font-size: 40px;
+    padding: 20px;
+}
+button{
+    width: 80px;
+    height: ;
+    background-color: #ed410d;
+    border: 2px solid #0000;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.05);
+}
+.bttn{
+    height: 50px;
+    width: 10rem;
+    font-size: 20px;
+    border: 2px solid #ffff;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+h4{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+.social_media_icons{
+    margin-top: 20px;
+    
+}
+
+.social_media_icons a{
+    color: white;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    font-size: 20PX;
+}
+
+.social_media_icons:hover{
+    transform: scale(1.05);
+}
+
+.form{
+    position: relative;;
+    text-align: right;
+    padding-right: 10rem;
+    margin-top: 50px;
+}
+.btt{
+    position: relative;
+    right: 25rem;
+    min-height: 50px;
+    font-size: bold;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+}
+
+input{
+    width: 30rem;
+    min-height: 40px;
+    border: none;
+    padding: px;
+}
+input:hover{
+    border: 2px solid #ed410d;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+textarea{
+    width: 30rem;
+    min-height: 100px;
+    border: none;
+    padding: 10px;
+}
+
+textarea:hover{
+    border: 2px solid #ed410d;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
